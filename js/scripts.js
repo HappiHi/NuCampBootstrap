@@ -12,3 +12,15 @@ $(function() {
         }
     });
 });
+//basic syntax to connecting a jquery function to an bootstrap/ html button
+$(function() {
+    $("#reserveButton").click(function() {
+        $("#reserveModal").modal("show")
+    });
+});
+
+$(function() {
+    $("#loginButton").click(function(){
+        $("#loginModal").modal("show")
+    });
+});
